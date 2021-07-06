@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--name 是自定义控件的类名-->
+    <declare-styleable name="MyCustomView">
+        <attr name="titleSize" format="dimension"></attr>
+        <attr name="titleText" format="string"></attr>
+        <attr name="titleColor" format="color"></attr>
+        <attr name="titleBackgroundColor" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="EnterAnimLayout">
+        <attr name="isVisibleAtFirst" format="boolean"/>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View.EnterAnimLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/anim_layout">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cardview"
+        app:cardCornerRadius="10dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/app2"
+            />
+
+        <SurfaceView
+            android:id="@+id/sv"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+
+
+</View.EnterAnimLayout>

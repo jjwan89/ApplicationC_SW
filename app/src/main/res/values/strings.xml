@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">USBHotel</string>
+
+    <string name="title_zh">尊敬的宾客</string>
+    <string name="title_ch">Dear customers</string>
+
+    <string name="content_zh">欢迎光临下榻本酒店，我们深感荣幸，在你入住期间我们将竭诚为你服务，让你在舒适的环境中有度过一段开心又难忘的休闲时光，衷心祝愿你入住愉快！</string>
+    <string name="content_ch">Welcome to our hotel, it is our honor. During your stay, we will serve you wholeheartedly and let you enjoy a happy and unforgettable leisure time in a comfortable environment.
+I sincerely wish you a pleasant stay!
+</string>
+
+    <string name="people_zh">— —酒店全体员工</string>
+    <string name="people_ch">— —All the staffs in our hotel</string>
+
+    <string name="welcome_zh">欢 迎 光 临</string>
+    <string name="welcome_ch">Welcome</string>
+
+    <string name="welcome_small_zh">W e l c o m e</string>
+    <string name="welcome_small_ch">欢迎光临</string>
+
+
+    <string name="live_ch">直播</string>
+    <string name="live_en">Live</string>
+
+    <string name="vod_ch">点播</string>
+    <string name="vod_en">Vod</string>
+
+    <string name="hotel_ch">酒店</string>
+    <string name="hotel_en">Hotel</string>
+
+    <string name="music_ch">娱乐</string>
+    <string name="music_en">Relax</string>
+
+    <string name="load_ch">加载中...</string>
+    <string name="load_en">Load...</string>
+
+    <string name="play_ch">s 后播放</string>
+    <string name="play_en">s to play</string>
+
+
+</resources>

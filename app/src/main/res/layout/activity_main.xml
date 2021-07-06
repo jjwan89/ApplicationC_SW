@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <View.ScrollTextView
+        android:id="@+id/scroll"
+        android:layout_width="640px"
+        android:layout_height="63px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="23px" />
+
+    <TextClock
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="hh:mm"
+        android:layout_marginLeft="175px"
+        android:layout_marginTop="30px"
+        android:layout_toRightOf="@+id/scroll"
+        android:gravity="center"
+        android:lineSpacingExtra="5px"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <View.VPView
+        android:id="@+id/ad"
+        android:layout_width="551px"
+        android:layout_height="352px"
+        android:layout_below="@+id/scroll"
+        android:layout_marginLeft="58px"
+        android:layout_marginTop="23px"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+
+    <ImageView
+        android:id="@+id/app_1"
+        android:layout_width="385px"
+        android:layout_height="352px"
+        android:layout_alignTop="@+id/ad"
+        android:layout_marginLeft="10px"
+        android:nextFocusRight="@+id/app_2"
+        android:layout_toRightOf="@+id/ad"
+        android:src="@drawable/app1"
+        android:background="@drawable/img_selector"
+        android:scaleType="fitXY"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_2"
+        android:layout_width="208px"
+        android:layout_height="171px"
+        android:layout_alignTop="@+id/ad"
+        android:layout_marginLeft="10px"
+        android:scaleType="fitXY"
+        android:layout_toRightOf="@+id/app_1"
+        android:src="@drawable/app2"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_3"
+        android:layout_width="208px"
+        android:layout_height="171px"
+        android:layout_below="@+id/app_2"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/app3"
+        android:layout_toRightOf="@id/app_1"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_4"
+        android:layout_width="229px"
+        android:layout_height="167px"
+        android:layout_alignLeft="@+id/ad"
+        android:layout_below="@+id/ad"
+        android:scaleType="fitXY"
+        android:layout_marginTop="10px"
+        android:src="@drawable/app4"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_5"
+        android:layout_width="229px"
+        android:layout_height="167px"
+        android:layout_below="@+id/app_1"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/app5"
+        android:layout_toRightOf="@+id/app_4"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_6"
+        android:layout_width="229px"
+        android:layout_height="167px"
+        android:layout_below="@+id/app_1"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/app6"
+        android:layout_toRightOf="@+id/app_5"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_7"
+        android:layout_width="229px"
+        android:layout_height="167px"
+        android:layout_below="@+id/app_1"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/app7"
+        android:layout_toRightOf="@id/app_6"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/app_8"
+        android:layout_width="208px"
+        android:layout_height="167px"
+        android:layout_below="@+id/app_1"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/app8"
+        android:layout_toRightOf="@+id/app_7"
+        android:background="@drawable/img_selector"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/set"
+        android:layout_width="45px"
+        android:layout_height="45px"
+        android:layout_alignLeft="@+id/ad"
+        android:layout_below="@+id/app_4"
+        android:layout_marginTop="19px"
+        android:src="@drawable/set_selector"
+        android:focusable="true" />
+
+    <View.NetView
+        android:id="@+id/net"
+        android:layout_width="45px"
+        android:layout_height="45px"
+        android:layout_below="@+id/app_4"
+        android:layout_marginLeft="19px"
+        android:layout_marginTop="19px"
+        android:layout_toRightOf="@+id/set" />
+
+    <ImageView
+        android:id="@+id/clean"
+        android:layout_width="45px"
+        android:layout_height="45px"
+        android:layout_below="@+id/app_4"
+        android:layout_marginLeft="19px"
+        android:layout_marginTop="19px"
+        android:layout_toRightOf="@+id/net"
+        android:src="@drawable/clean_selector"
+        android:focusable="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="blank">#424242</color>
+    <color name="tran">#00000000</color>
+    <color name="item_1">#15a1b3</color>
+    <color name="item_2">#2173a1</color>
+    <color name="item_3">#18b0b6</color>
+    <color name="item_4">#789097</color>
+    <color name="item_5">#7baeac</color>
+    <color name="item_6">#50cddc</color>
+    <color name="item_7">#7e7880</color>
+    <color name="item_8">#25c4aa</color>
+    <color name="item_9">#88af61</color>
+    <color name="item_10">#7f7f80</color>
+    <color name="item_11">#fb1d51</color>
+    <color name="item_12">#d7d7d7</color>
+    <color name="item_13">#dc2b43</color>
+    <color name="item_14">#df4861</color>
+    <color name="item_15">#5878a0</color>
+    <color name="item_16">#6aa2bd</color>
+    <color name="item_17">#87c8fe</color>
+    <color name="item_18">#a6c731</color>
+    <color name="gold">#DAA520</color>
+    <color name="gray">#D7D3D7</color>
+</resources>
